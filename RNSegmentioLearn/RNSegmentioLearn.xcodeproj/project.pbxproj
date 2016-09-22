@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E09172161D93752F00300FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172151D93752F00300FB1 /* AppDelegate.swift */; };
+		E09172181D93752F00300FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172171D93752F00300FB1 /* ViewController.swift */; };
+		E091721B1D93752F00300FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09172191D93752F00300FB1 /* Main.storyboard */; };
+		E091721D1D93752F00300FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E091721C1D93752F00300FB1 /* Assets.xcassets */; };
+		E09172201D93752F00300FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E091721E1D93752F00300FB1 /* LaunchScreen.storyboard */; };
+		E091722B1D93753000300FB1 /* RNSegmentioLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091722A1D93753000300FB1 /* RNSegmentioLearnTests.swift */; };
+		E09172361D93753100300FB1 /* RNSegmentioLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172351D93753100300FB1 /* RNSegmentioLearnUITests.swift */; };
+		E09172531D93788C00300FB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E09172441D93788C00300FB1 /* Info.plist */; };
+		E09172541D93788C00300FB1 /* SegmentioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172481D93788C00300FB1 /* SegmentioCell.swift */; };
+		E09172551D93788C00300FB1 /* SegmentioCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172491D93788C00300FB1 /* SegmentioCellWithImage.swift */; };
+		E09172561D93788C00300FB1 /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091724A1D93788C00300FB1 /* SegmentioCellWithImageAfterLabel.swift */; };
+		E09172571D93788C00300FB1 /* SegmentioCellWithImageBeforeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091724B1D93788C00300FB1 /* SegmentioCellWithImageBeforeLabel.swift */; };
+		E09172581D93788C00300FB1 /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091724C1D93788C00300FB1 /* SegmentioCellWithImageOverLabel.swift */; };
+		E09172591D93788C00300FB1 /* SegmentioCellWithImageUnderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091724D1D93788C00300FB1 /* SegmentioCellWithImageUnderLabel.swift */; };
+		E091725A1D93788C00300FB1 /* SegmentioCellWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091724E1D93788C00300FB1 /* SegmentioCellWithLabel.swift */; };
+		E091725B1D93788C00300FB1 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172501D93788C00300FB1 /* UIView+Appearance.swift */; };
+		E091725C1D93788C00300FB1 /* Segmentio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172511D93788C00300FB1 /* Segmentio.swift */; };
+		E091725D1D93788C00300FB1 /* SegmentioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09172521D93788C00300FB1 /* SegmentioOptions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E09172271D93753000300FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E091720A1D93752E00300FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E09172111D93752E00300FB1;
+			remoteInfo = RNSegmentioLearn;
+		};
+		E09172321D93753000300FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E091720A1D93752E00300FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E09172111D93752E00300FB1;
+			remoteInfo = RNSegmentioLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E09172121D93752E00300FB1 /* RNSegmentioLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNSegmentioLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09172151D93752F00300FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E09172171D93752F00300FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E091721A1D93752F00300FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E091721C1D93752F00300FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E091721F1D93752F00300FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E09172211D93753000300FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09172261D93753000300FB1 /* RNSegmentioLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNSegmentioLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E091722A1D93753000300FB1 /* RNSegmentioLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNSegmentioLearnTests.swift; sourceTree = "<group>"; };
+		E091722C1D93753000300FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09172311D93753000300FB1 /* RNSegmentioLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNSegmentioLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09172351D93753100300FB1 /* RNSegmentioLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNSegmentioLearnUITests.swift; sourceTree = "<group>"; };
+		E09172371D93753100300FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09172441D93788C00300FB1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09172451D93788C00300FB1 /* Segmentio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segmentio.h; sourceTree = "<group>"; };
+		E09172481D93788C00300FB1 /* SegmentioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioCell.swift; sourceTree = "<group>"; };
+		E09172491D93788C00300FB1 /* SegmentioCellWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImage.swift; sourceTree = "<group>"; };
+		E091724A1D93788C00300FB1 /* SegmentioCellWithImageAfterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageAfterLabel.swift; sourceTree = "<group>"; };
+		E091724B1D93788C00300FB1 /* SegmentioCellWithImageBeforeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageBeforeLabel.swift; sourceTree = "<group>"; };
+		E091724C1D93788C00300FB1 /* SegmentioCellWithImageOverLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageOverLabel.swift; sourceTree = "<group>"; };
+		E091724D1D93788C00300FB1 /* SegmentioCellWithImageUnderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithImageUnderLabel.swift; sourceTree = "<group>"; };
+		E091724E1D93788C00300FB1 /* SegmentioCellWithLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioCellWithLabel.swift; sourceTree = "<group>"; };
+		E09172501D93788C00300FB1 /* UIView+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
+		E09172511D93788C00300FB1 /* Segmentio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segmentio.swift; sourceTree = "<group>"; };
+		E09172521D93788C00300FB1 /* SegmentioOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioOptions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E091720F1D93752E00300FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09172231D93753000300FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E091722E1D93753000300FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E09172091D93752E00300FB1 = {
+			isa = PBXGroup;
+			children = (
+				E09172141D93752F00300FB1 /* RNSegmentioLearn */,
+				E09172291D93753000300FB1 /* RNSegmentioLearnTests */,
+				E09172341D93753000300FB1 /* RNSegmentioLearnUITests */,
+				E09172131D93752F00300FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E09172131D93752F00300FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E09172121D93752E00300FB1 /* RNSegmentioLearn.app */,
+				E09172261D93753000300FB1 /* RNSegmentioLearnTests.xctest */,
+				E09172311D93753000300FB1 /* RNSegmentioLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E09172141D93752F00300FB1 /* RNSegmentioLearn */ = {
+			isa = PBXGroup;
+			children = (
+				E09172151D93752F00300FB1 /* AppDelegate.swift */,
+				E09172171D93752F00300FB1 /* ViewController.swift */,
+				E09172191D93752F00300FB1 /* Main.storyboard */,
+				E091721C1D93752F00300FB1 /* Assets.xcassets */,
+				E091721E1D93752F00300FB1 /* LaunchScreen.storyboard */,
+				E09172211D93753000300FB1 /* Info.plist */,
+				E09172431D93788C00300FB1 /* Segmentio */,
+			);
+			path = RNSegmentioLearn;
+			sourceTree = "<group>";
+		};
+		E09172291D93753000300FB1 /* RNSegmentioLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				E091722A1D93753000300FB1 /* RNSegmentioLearnTests.swift */,
+				E091722C1D93753000300FB1 /* Info.plist */,
+			);
+			path = RNSegmentioLearnTests;
+			sourceTree = "<group>";
+		};
+		E09172341D93753000300FB1 /* RNSegmentioLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E09172351D93753100300FB1 /* RNSegmentioLearnUITests.swift */,
+				E09172371D93753100300FB1 /* Info.plist */,
+			);
+			path = RNSegmentioLearnUITests;
+			sourceTree = "<group>";
+		};
+		E09172431D93788C00300FB1 /* Segmentio */ = {
+			isa = PBXGroup;
+			children = (
+				E09172441D93788C00300FB1 /* Info.plist */,
+				E09172451D93788C00300FB1 /* Segmentio.h */,
+				E09172461D93788C00300FB1 /* Source */,
+			);
+			path = Segmentio;
+			sourceTree = "<group>";
+		};
+		E09172461D93788C00300FB1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E09172471D93788C00300FB1 /* Cells */,
+				E091724F1D93788C00300FB1 /* Extensions */,
+				E09172511D93788C00300FB1 /* Segmentio.swift */,
+				E09172521D93788C00300FB1 /* SegmentioOptions.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E09172471D93788C00300FB1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E09172481D93788C00300FB1 /* SegmentioCell.swift */,
+				E09172491D93788C00300FB1 /* SegmentioCellWithImage.swift */,
+				E091724A1D93788C00300FB1 /* SegmentioCellWithImageAfterLabel.swift */,
+				E091724B1D93788C00300FB1 /* SegmentioCellWithImageBeforeLabel.swift */,
+				E091724C1D93788C00300FB1 /* SegmentioCellWithImageOverLabel.swift */,
+				E091724D1D93788C00300FB1 /* SegmentioCellWithImageUnderLabel.swift */,
+				E091724E1D93788C00300FB1 /* SegmentioCellWithLabel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E091724F1D93788C00300FB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E09172501D93788C00300FB1 /* UIView+Appearance.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E09172111D93752E00300FB1 /* RNSegmentioLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E091723A1D93753100300FB1 /* Build configuration list for PBXNativeTarget "RNSegmentioLearn" */;
+			buildPhases = (
+				E091720E1D93752E00300FB1 /* Sources */,
+				E091720F1D93752E00300FB1 /* Frameworks */,
+				E09172101D93752E00300FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNSegmentioLearn;
+			productName = RNSegmentioLearn;
+			productReference = E09172121D93752E00300FB1 /* RNSegmentioLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E09172251D93753000300FB1 /* RNSegmentioLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E091723D1D93753100300FB1 /* Build configuration list for PBXNativeTarget "RNSegmentioLearnTests" */;
+			buildPhases = (
+				E09172221D93753000300FB1 /* Sources */,
+				E09172231D93753000300FB1 /* Frameworks */,
+				E09172241D93753000300FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E09172281D93753000300FB1 /* PBXTargetDependency */,
+			);
+			name = RNSegmentioLearnTests;
+			productName = RNSegmentioLearnTests;
+			productReference = E09172261D93753000300FB1 /* RNSegmentioLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E09172301D93753000300FB1 /* RNSegmentioLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09172401D93753100300FB1 /* Build configuration list for PBXNativeTarget "RNSegmentioLearnUITests" */;
+			buildPhases = (
+				E091722D1D93753000300FB1 /* Sources */,
+				E091722E1D93753000300FB1 /* Frameworks */,
+				E091722F1D93753000300FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E09172331D93753000300FB1 /* PBXTargetDependency */,
+			);
+			name = RNSegmentioLearnUITests;
+			productName = RNSegmentioLearnUITests;
+			productReference = E09172311D93753000300FB1 /* RNSegmentioLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E091720A1D93752E00300FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "婉卿容若";
+				TargetAttributes = {
+					E09172111D93752E00300FB1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UZZG6NM74T;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					E09172251D93753000300FB1 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E09172111D93752E00300FB1;
+					};
+					E09172301D93753000300FB1 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E09172111D93752E00300FB1;
+					};
+				};
+			};
+			buildConfigurationList = E091720D1D93752E00300FB1 /* Build configuration list for PBXProject "RNSegmentioLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E09172091D93752E00300FB1;
+			productRefGroup = E09172131D93752F00300FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E09172111D93752E00300FB1 /* RNSegmentioLearn */,
+				E09172251D93753000300FB1 /* RNSegmentioLearnTests */,
+				E09172301D93753000300FB1 /* RNSegmentioLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E09172101D93752E00300FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09172531D93788C00300FB1 /* Info.plist in Resources */,
+				E09172201D93752F00300FB1 /* LaunchScreen.storyboard in Resources */,
+				E091721D1D93752F00300FB1 /* Assets.xcassets in Resources */,
+				E091721B1D93752F00300FB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09172241D93753000300FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E091722F1D93753000300FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E091720E1D93752E00300FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E091725D1D93788C00300FB1 /* SegmentioOptions.swift in Sources */,
+				E09172541D93788C00300FB1 /* SegmentioCell.swift in Sources */,
+				E09172591D93788C00300FB1 /* SegmentioCellWithImageUnderLabel.swift in Sources */,
+				E091725C1D93788C00300FB1 /* Segmentio.swift in Sources */,
+				E09172571D93788C00300FB1 /* SegmentioCellWithImageBeforeLabel.swift in Sources */,
+				E091725A1D93788C00300FB1 /* SegmentioCellWithLabel.swift in Sources */,
+				E09172551D93788C00300FB1 /* SegmentioCellWithImage.swift in Sources */,
+				E09172181D93752F00300FB1 /* ViewController.swift in Sources */,
+				E09172161D93752F00300FB1 /* AppDelegate.swift in Sources */,
+				E09172581D93788C00300FB1 /* SegmentioCellWithImageOverLabel.swift in Sources */,
+				E091725B1D93788C00300FB1 /* UIView+Appearance.swift in Sources */,
+				E09172561D93788C00300FB1 /* SegmentioCellWithImageAfterLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09172221D93753000300FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E091722B1D93753000300FB1 /* RNSegmentioLearnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E091722D1D93753000300FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09172361D93753100300FB1 /* RNSegmentioLearnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E09172281D93753000300FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E09172111D93752E00300FB1 /* RNSegmentioLearn */;
+			targetProxy = E09172271D93753000300FB1 /* PBXContainerItemProxy */;
+		};
+		E09172331D93753000300FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E09172111D93752E00300FB1 /* RNSegmentioLearn */;
+			targetProxy = E09172321D93753000300FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E09172191D93752F00300FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E091721A1D93752F00300FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E091721E1D93752F00300FB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E091721F1D93752F00300FB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E09172381D93753100300FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E09172391D93753100300FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E091723B1D93753100300FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = RNSegmentioLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengwenxiang.RNSegmentioLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E091723C1D93753100300FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = RNSegmentioLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengwenxiang.RNSegmentioLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E091723E1D93753100300FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RNSegmentioLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengwenxiang.RNSegmentioLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNSegmentioLearn.app/RNSegmentioLearn";
+			};
+			name = Debug;
+		};
+		E091723F1D93753100300FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RNSegmentioLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengwenxiang.RNSegmentioLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNSegmentioLearn.app/RNSegmentioLearn";
+			};
+			name = Release;
+		};
+		E09172411D93753100300FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RNSegmentioLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengwenxiang.RNSegmentioLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RNSegmentioLearn;
+			};
+			name = Debug;
+		};
+		E09172421D93753100300FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RNSegmentioLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengwenxiang.RNSegmentioLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RNSegmentioLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E091720D1D93752E00300FB1 /* Build configuration list for PBXProject "RNSegmentioLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09172381D93753100300FB1 /* Debug */,
+				E09172391D93753100300FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E091723A1D93753100300FB1 /* Build configuration list for PBXNativeTarget "RNSegmentioLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E091723B1D93753100300FB1 /* Debug */,
+				E091723C1D93753100300FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E091723D1D93753100300FB1 /* Build configuration list for PBXNativeTarget "RNSegmentioLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E091723E1D93753100300FB1 /* Debug */,
+				E091723F1D93753100300FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E09172401D93753100300FB1 /* Build configuration list for PBXNativeTarget "RNSegmentioLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09172411D93753100300FB1 /* Debug */,
+				E09172421D93753100300FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E091720A1D93752E00300FB1 /* Project object */;
+}
